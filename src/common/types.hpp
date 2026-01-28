@@ -2,12 +2,14 @@
 
 #include <string>
 
+
+
 struct CarProfile {
     std::string car_id;
 
     // performance characteristics (0.0- 1.0)
     float engine_power;
-    float aero_efficienccy;
+    float aero_efficiency;
     float cooling_efficiency;
     float reliability;
 };
